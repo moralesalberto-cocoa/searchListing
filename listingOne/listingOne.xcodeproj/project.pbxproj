@@ -13,7 +13,6 @@
 		B68F5056183FC3BB00E18EC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B68F5054183FC3BB00E18EC4 /* InfoPlist.strings */; };
 		B68F5058183FC3BB00E18EC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B68F5057183FC3BB00E18EC4 /* main.m */; };
 		B68F505C183FC3BB00E18EC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B68F505B183FC3BB00E18EC4 /* AppDelegate.m */; };
-		B68F5064183FC3BB00E18EC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68F5063183FC3BB00E18EC4 /* Images.xcassets */; };
 		B68F506B183FC3BB00E18EC4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68F506A183FC3BB00E18EC4 /* XCTest.framework */; };
 		B68F506C183FC3BB00E18EC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68F504B183FC3BB00E18EC4 /* Foundation.framework */; };
 		B68F506D183FC3BB00E18EC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68F504F183FC3BB00E18EC4 /* UIKit.framework */; };
@@ -22,6 +21,10 @@
 		B68F508B183FC46F00E18EC4 /* VideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B68F5089183FC46F00E18EC4 /* VideosViewController.m */; };
 		B68F508C183FC46F00E18EC4 /* VideosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B68F508A183FC46F00E18EC4 /* VideosViewController.xib */; };
 		B68F508F183FE25B00E18EC4 /* SearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = B68F508E183FE25B00E18EC4 /* SearchResult.m */; };
+		B6D587E6183FE710005D129C /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6D587E5183FE710005D129C /* SearchResultCell.xib */; };
+		B6D587E8183FE7C2005D129C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D587E7183FE7C2005D129C /* Images.xcassets */; };
+		B6D587EB183FEC28005D129C /* SearchResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D587EA183FEC28005D129C /* SearchResultCell.m */; };
+		B6ED3138183FEFB200DCC731 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6ED3137183FEFB200DCC731 /* NothingFoundCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +48,6 @@
 		B68F5059183FC3BB00E18EC4 /* listingOne-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "listingOne-Prefix.pch"; sourceTree = "<group>"; };
 		B68F505A183FC3BB00E18EC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B68F505B183FC3BB00E18EC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B68F5063183FC3BB00E18EC4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B68F5069183FC3BB00E18EC4 /* listingOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = listingOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68F506A183FC3BB00E18EC4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B68F5072183FC3BB00E18EC4 /* listingOneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "listingOneTests-Info.plist"; sourceTree = "<group>"; };
@@ -56,6 +58,11 @@
 		B68F508A183FC46F00E18EC4 /* VideosViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VideosViewController.xib; path = ../VideosViewController.xib; sourceTree = "<group>"; };
 		B68F508D183FE25B00E18EC4 /* SearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResult.h; sourceTree = "<group>"; };
 		B68F508E183FE25B00E18EC4 /* SearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResult.m; sourceTree = "<group>"; };
+		B6D587E5183FE710005D129C /* SearchResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
+		B6D587E7183FE7C2005D129C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		B6D587E9183FEC28005D129C /* SearchResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultCell.h; sourceTree = "<group>"; };
+		B6D587EA183FEC28005D129C /* SearchResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultCell.m; sourceTree = "<group>"; };
+		B6ED3137183FEFB200DCC731 /* NothingFoundCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,14 +122,18 @@
 		B68F5051183FC3BB00E18EC4 /* listingOne */ = {
 			isa = PBXGroup;
 			children = (
+				B6D587E7183FE7C2005D129C /* Images.xcassets */,
 				B68F5088183FC46F00E18EC4 /* VideosViewController.h */,
 				B68F5089183FC46F00E18EC4 /* VideosViewController.m */,
+				B68F508A183FC46F00E18EC4 /* VideosViewController.xib */,
+				B6D587E5183FE710005D129C /* SearchResultCell.xib */,
+				B6ED3137183FEFB200DCC731 /* NothingFoundCell.xib */,
+				B6D587E9183FEC28005D129C /* SearchResultCell.h */,
+				B6D587EA183FEC28005D129C /* SearchResultCell.m */,
 				B68F508D183FE25B00E18EC4 /* SearchResult.h */,
 				B68F508E183FE25B00E18EC4 /* SearchResult.m */,
-				B68F508A183FC46F00E18EC4 /* VideosViewController.xib */,
 				B68F505A183FC3BB00E18EC4 /* AppDelegate.h */,
 				B68F505B183FC3BB00E18EC4 /* AppDelegate.m */,
-				B68F5063183FC3BB00E18EC4 /* Images.xcassets */,
 				B68F5052183FC3BB00E18EC4 /* Supporting Files */,
 			);
 			path = listingOne;
@@ -234,7 +245,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B68F508C183FC46F00E18EC4 /* VideosViewController.xib in Resources */,
-				B68F5064183FC3BB00E18EC4 /* Images.xcassets in Resources */,
+				B6D587E8183FE7C2005D129C /* Images.xcassets in Resources */,
+				B6ED3138183FEFB200DCC731 /* NothingFoundCell.xib in Resources */,
+				B6D587E6183FE710005D129C /* SearchResultCell.xib in Resources */,
 				B68F5056183FC3BB00E18EC4 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +269,7 @@
 			files = (
 				B68F508B183FC46F00E18EC4 /* VideosViewController.m in Sources */,
 				B68F505C183FC3BB00E18EC4 /* AppDelegate.m in Sources */,
+				B6D587EB183FEC28005D129C /* SearchResultCell.m in Sources */,
 				B68F508F183FE25B00E18EC4 /* SearchResult.m in Sources */,
 				B68F5058183FC3BB00E18EC4 /* main.m in Sources */,
 			);
@@ -458,6 +472,7 @@
 				B68F507C183FC3BB00E18EC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B68F507D183FC3BB00E18EC4 /* Build configuration list for PBXNativeTarget "listingOneTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +481,7 @@
 				B68F507F183FC3BB00E18EC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
